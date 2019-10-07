@@ -16,7 +16,7 @@ setup(
     packages=['core_weekly'],
     install_requires=[
         'argparse==1.4.0',
-        'requests==2.19.1',
+        'requests==2.20.0',
     ],
     tests_require=[
         'coverage',
