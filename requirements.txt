@@ -5,6 +5,12 @@
 #    pip-compile requirements.in
 #
 argparse==1.4.0
-click==7.0                # via pip-tools
-pip-tools==4.1.0
-six==1.12.0               # via pip-tools
+    # via -r requirements.in
+click==7.0
+    # via pip-tools
+pep517==0.10.0
+    # via pip-tools
+pip-tools==6.1.0
+    # via -r requirements.in
+toml==0.10.2
+    # via pep517
